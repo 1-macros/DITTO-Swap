@@ -1,0 +1,56 @@
+{
+  "name": "ditto-swap",
+  "version": "1.0.0",
+  "description": "Swap ditto tokens on BSC.",
+  "type": "commonjs",
+  "main": "dist/DITTOSwap.js",
+  "directories": {
+    "test": ""
+  },
+  "bin": {
+    "ditto-swap": "dist/DITTOSwap.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "cli-progress": "^3.9.0",
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "csv-stringify": "^5.6.1",
+    "csv-write-stream": "^2.0.0",
+    "csv-writer": "^1.6.0",
+    "export-to-csv": "^0.2.1",
+    "fast-csv": "^4.3.6",
+    "fs": "0.0.1-security",
+    "fs-extra": "^9.1.0",
+    "fs-jetpack": "^3.1.0",
+    "json-object-mapper": "^1.6.0",
+    "objects-to-csv": "^1.3.6",
+    "reflect-metadata": "^0.1.13",
+    "superagent": "^6.0.0",
+    "web3": "^1.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.25",
+    "typescript": "^4.1.5",
+    "ts-node": "3.3.0"
+  },
+  "scripts": {
+    "dev": "npx tsc && node dist/DITTOSwap.js export -f 1 -t latest -c /tmp/ditto-config.json",
+    "start": "npm run build && node dist/DITTOSwap.js watch",
+    "build": "npm run clean && npm run depInstall && npx tsc",
+    "clean": "rm -rf dist && rm -rf node_modules",
+    "test": "",
+    "depInstall": "npm install",
+    "localInstall": "npm install -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1-macros/DITTO-Swap.git"
+  },
+  "author": "macros.deligator",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1-macros/DITTO-Swap/issues"
+  },
+  "homepage": "https://github.com/1-macros/DITTO-Swap#readme"
+}

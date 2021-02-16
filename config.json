@@ -1,0 +1,5 @@
+{
+  "eth_url": "wss://ropsten.infura.io/ws/v3/5d49aec3b1d24981a0babd5f87cd3092",
+  "contract_address": "0xFDaCD496EfFB198C81Fb5E74F156e889f4ecCF91",
+  "out_dir": "/tmp"
+}
