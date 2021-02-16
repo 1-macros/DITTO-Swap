@@ -11,7 +11,13 @@ Ditto Utility
 - [Live Swap : TBD] Listen - Listen to real time deposit events
 - [Live Swap : TBD] Swap - Swap the tokens from ETH chain to BSC chain.
 
-## Installation
+## Package Installation
+
+```sh
+npm -i ditto-swap@1.0.0
+```
+
+## Build
 
 Ditto-swap requires [Node.js](https://nodejs.org/) & [NPM](https://npmjs.com).
 
