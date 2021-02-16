@@ -16,7 +16,7 @@ Ditto Utility
 Ditto-swap requires [Node.js](https://nodejs.org/) v10+ to run.
 
 ```sh
-cd Ditto-swap
+cd DITTO-swap
 npm run build
 npm link
 ```
