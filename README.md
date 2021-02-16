@@ -13,7 +13,7 @@ Ditto Utility
 
 ## Installation
 
-Ditto-swap requires [Node.js](https://nodejs.org/) v10+ to run.
+Ditto-swap requires [Node.js](https://nodejs.org/) & [NPM](https://npmjs.com).
 
 ```sh
 cd DITTO-swap

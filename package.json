@@ -48,7 +48,7 @@
     "url": "git+https://github.com/1-macros/DITTO-Swap.git"
   },
   "author": "macros.deligator",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/1-macros/DITTO-Swap/issues"
   },
